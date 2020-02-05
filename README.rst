@@ -1,5 +1,5 @@
-OutPyR - A tool for finding outliers in RNA-Seq gene expression count data
-==========================================================================
+OutPyR: a Python-based Bayesian inference tool for finding outliers in RNA-Seq gene expression count data
+=========================================================================================================
 
 OutPyR has been tested on Linux (Ubuntu)
 and Windows 10.
