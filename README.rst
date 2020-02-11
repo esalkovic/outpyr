@@ -128,9 +128,10 @@ E.g. after opening a Python shell,
 run the following Python commands::
 
  import outpyr.helpers as h
+ import outpyr.helpers_tensorflow as htf
 
  j = 0
- ti = h.TraceInspector(r'[ALL]-sp-normalized_sf-from-ncomms15824-s1')
+ ti = htf.TraceInspector(r'[ALL]-sp-normalized_sf-from-ncomms15824-s1')
  ti.plot_r_j_trace(j)
 
 which will plot the trace (after warm-up)
