@@ -105,7 +105,8 @@ def main():
             output_dir = outpyr.train_cpu_multiprocess.run(data_file, settings, args.preprocessing, args.jobs)
 
         dir_abs = os.path.join(dir_, output_dir)
-        ti = h.TraceInspector(dir_abs)
+        from outpyr import helpers_tensorflow as htf
+        ti = htf.TraceInspector(dir_abs)
         if 'p_values_mean' not in ti.v:
             print('Post-sampling: calculating p-values...')
             ti.set_final_values_from_trace()
