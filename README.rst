@@ -156,7 +156,7 @@ sample ``i = 1`` use::
 
  j = 0
  i = 1
- ti.get_p_value_matrix(j, i)
+ ti.get_p_value_matrix()[j, i]
 
 You can also get a trace of the p-value
 with::
