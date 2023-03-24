@@ -8,6 +8,25 @@ alpha stage,
 so encountering bugs while
 running it is expected.
 
+If you use OutSingle in your research
+you can cite our paper::
+
+Edin Salkovic, Mostafa M. Abbas, Samir Brahim Belhaouari, Khaoula Errafii, Halima Bensmail,
+OutPyR: Bayesian inference for RNA-Seq outlier detection,
+Journal of Computational Science,
+Volume 47,
+2020,
+101245,
+ISSN 1877-7503,
+https://doi.org/10.1016/j.jocs.2020.101245
+
+And please also check our other, newer models (both have related published papers)::
+
+https://github.com/esalkovic/outpyrx
+
+https://github.com/esalkovic/outsingle
+
+
 Installation
 ------------
 The recommended way is to install
