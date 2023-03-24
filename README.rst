@@ -8,7 +8,7 @@ alpha stage,
 so encountering bugs while
 running it is expected.
 
-If you use OutSingle in your research
+If you use OutPyR in your research
 you can cite our paper::
 
 Edin Salkovic, Mostafa M. Abbas, Samir Brahim Belhaouari, Khaoula Errafii, Halima Bensmail,
